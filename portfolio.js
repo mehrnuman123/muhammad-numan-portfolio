@@ -1,27 +1,27 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Muhammad Numan",
+	title: "Hi all, I'm Numan",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"I'm passionate Full Stack web developer having an experience of web applications with React js, Node js, Nest js, Angular js, express js and TypeScript",
 	resumeLink:
-		"https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing",
+		"https://drive.google.com/file/d/1wOFI44EtGkylPpKOa04LY68mmA0cVsQ8/view?usp=share_link",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "mhern-numan",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	url: "https://1hanzla100.github.io/",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
-	github: "https://github.com/1hanzla100",
-	instagram: "https://www.instagram.com/__hanzla100",
-	facebook: "https://www.facebook.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
+	url: "https://github.com/mehrnuman123",
+	linkedin: "https://www.linkedin.com/in/mhern-3758ba188/",
+	github: "https://github.com/mehrnuman123",
+	instagram: "https://www.instagram.com/mehrnuman777",
+	facebook: "",
+	twitter: "",
 };
 
 export const skillsSection = {
@@ -34,21 +34,21 @@ export const skillsSection = {
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
+					"⚡ Building full stack applications using MEAN and MERN stack"
 				),
-				emoji("⚡ Building responsive static websites using Next.js"),
+				emoji("⚡ Designing user infterfaces using view libraries like Bootstrapp and Material ui "),
 				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
+					"⚡ Building RESTful APIs in Node js"
 				),
 			],
 			softwareSkills: [
 				{
-					skillName: "HTML-5",
+					skillName: "Java",
 					fontAwesomeClassname: "vscode-icons:file-type-html",
 				},
 				{
-					skillName: "CSS-3",
-					fontAwesomeClassname: "vscode-icons:file-type-css",
+					skillName: "Typescript",
+					fontAwesomeClassname: "vscode-icons:file-type-typescript",
 				},
 				{
 					skillName: "JavaScript",
@@ -59,7 +59,7 @@ export const skillsSection = {
 					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
 				},
 				{
-					skillName: "Nextjs",
+					skillName: "Next",
 					fontAwesomeClassname: "vscode-icons:file-type-light-next",
 				},
 				{
@@ -141,49 +141,6 @@ export const skillsSection = {
 				},
 			],
 		},
-		{
-			title: "Blockchain",
-			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-				),
-				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-				),
-				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
-				},
-				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
-				},
-				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
-				},
-				{
-					skillName: "Metamask",
-					fontAwesomeClassname: "logos:metamask-icon",
-				},
-				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
-				},
-			],
-		},
 	],
 };
 
@@ -194,84 +151,75 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "80",
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "80",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		grade: "Grade A",
+		schoolName: "University of South Asia",
+		subHeader: "Bachelor of Science in Computer Science",
+		duration: "September 2017 - June 2021",
+		desc: "Major in Software development and Artificial Intelligence",
+		grade: "Grade B",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		],
 	},
 ];
 
 export const experience = [
 	{
-		role: "Frontend Developer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Apr 2022 – Jun 2022",
-		desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
+		role: "Associate Software Engineer",
+		company: "OptimaGeeks",
+		companylogo: "/img/icons/common/optimaGeeks.png",
+		date: "Aug 2022 – present",
+		desc: "I have been working as MEAN and MERN stack developer.",
 	},
 	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+		role: "Junior Software Engineer",
+		company: "Devflovv",
+		companylogo: "/img/icons/common/devflovv.jpg",
+		date: "Feb 2022 – April 2022",
+		desc: "Coordinated with backend developers and integrated RestfulAPI’s with frontend. Worked with team of senior developers from Canada. Worked on platform called “Augmentt” which manages and secure SaaS applications.",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
 		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		// ],
 	},
 	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+		role: "Full stack Internee",
+		company: "SpyreSync",
+		companylogo: "/img/icons/common/spyreSync.png",
+		date: "Nov 2021 - Feb 2022",
+		desc: "Joined software industry and started learning JavaScript and other web technologies. Learned Best coding practices and standards to ensure software quality. Learned popular frameworks and libraries like React, Node and Express js",
 	},
 ];
 
 export const projects = [
 	{
-		name: "developer-portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		name: "Kartedia Application",
+		desc: "Online Platform to design and buy tempplates for institutes and organiztion to print cards in bulk.This is role base systems comes with full fledge Template Editor Like Photoshop and Chat between users of same institute",
+		github: "",
+		link: "https://drive.google.com/file/d/14VK9wh6UJcfB6JJZnVivTTDe5OPHXlw1/view?usp=share_link",
 	},
 	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		github: "https://github.com/1hanzla100/Django-React-Marketplace",
+		name: "Augmentt",
+		desc: "Augmentt helps MSPs uncover Shadow IT, manage their customer’s Microsoft 365 & Google Workspace cloud apps, and enforce security policies to prevent security breaches.",
+		link: "https://www.augmentt.com ",
 	},
 	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		github: "https://github.com/1hanzla100/django-react-forum",
+		name: "Parserr",
+		desc: "Parserr is an email data parsing tool that takes features above and beyond.",
+		link: "https://parserr.com",
 	},
 	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		github: "https://github.com/1hanzla100/Django-ecommerce",
+		name: "Shopit",
+		desc: "Full fledge e-commerce application including payment method.",
+		github: "https://github.com/mehrnuman123",
 	},
 ];
 
@@ -290,19 +238,16 @@ export const feedbacks = [
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Hanzla Tauqeer",
+	title: "Muhammad Numan",
 	description:
-		"A passionate Full Stack Web Developer and Blockchain Developer.",
-	author: "Hanzla Tauqeer",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-	url: "https://developer-portfolio-1hanzla100.vercel.app",
+		"A passionate Full Stack Web Developer and Mobile Application developer",
+	author: "Muhammad Numan",
+	image: "",
+	url: "",
 	keywords: [
-		"Hanzla",
-		"Hanzla Tauqeer",
-		"@1hanzla100",
-		"1hanzla100",
-		"Portfolio",
-		"Hanzla Portfolio ",
-		"Hanzla Tauqeer Portfolio",
+		"muhammad Noman",
+		"mehrnuman",
+		"Full stack developer",
+		"MEAN and MERN stack developer",
 	],
 }
