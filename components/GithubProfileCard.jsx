@@ -13,7 +13,7 @@ const GithubProfileCard = ({ prof }) => {
 					<Row className="">
 						<Col className="order-lg-2" lg="4">
 							<img
-								src="/img/icons/common/profile.jpg"
+								src="/img/icons/common/PP.jpg"
 								style={{ width: "200px" }}
 								alt=""
 								className="img-center img-fluid shadow shadow-lg--hover mb-4"
@@ -26,10 +26,7 @@ const GithubProfileCard = ({ prof }) => {
 								INBOX IS OPEN FOR ALL
 							</p>
 							<p className="text-white mt-3">{prof.bio}</p>
-							<div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
-								<i className="ni ni-pin-3 text-info mr-2" />
-								{prof.location}
-							</div>
+						
 							<SocialLinks />
 						</Col>
 					</Row>

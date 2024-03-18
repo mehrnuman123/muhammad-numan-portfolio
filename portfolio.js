@@ -1,12 +1,12 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Muhammad Numan",
-	title: "Hi all, I'm Numan",
+	name: "Muhammad Noman",
+	title: "Hi all, I'm Noman",
 	description:
-		"I'm passionate Full Stack developer having hands on experience of developing applications using Java, JavaScript, TypeScript, React js, Node js, Nest js, Angular js and express js",
+		"I'm a dynamic and results-oriented full-stack developer with a proven track record of delivering cutting-edge technology solutions. With 3+ years of hands-on experience, I specialize in crafting reliable applications that push the boundaries of innovation.",
 	resumeLink:
-		"https://drive.google.com/file/d/1wOFI44EtGkylPpKOa04LY68mmA0cVsQ8/view?usp=share_link",
+		"",
 };
 
 export const openSource = {
@@ -33,11 +33,11 @@ export const skillsSection = {
 			title: "Full Stack Development",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
-				"⚡ Building full stack applications using MEAN and MERN stack.",
-				"⚡ Mobile application development using Java & React-native.",
-				"⚡ Designing user infterfaces using view libraries like Bootstrapp, tailwind and Material ui.",
-				"⚡ Building RESTful APIs in Node js.",
-				"⚡ Database Management with SQL, TypeOrm, Sequelize.",
+				"⚡ Proficient in Python/Django, PHP, JavaScript/TypeScript.",
+				"⚡ Expertise in React, Angular, Node, Nest, Next & Express Js/Ts",
+				"⚡ Adept at React-Native for creating cross-platform applications.",
+				"⚡ Experienced in both relational and non-relational databases..",
+				"⚡ Skilled in implementing and managing CI/CD pipelines, automating infrastructure, and optimizing development processes on cloud platforms like AWS, Azure, etc",
 				,
 			],
 			softwareSkills: [
@@ -160,8 +160,17 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "University of South Asia",
-		subHeader: "Bachelor of Science in Computer Science",
+		schoolName: "Karelia University of Applied Sciences, Finland",
+		subHeader: "Information Communication Technology",
+		duration: "August 2023 - June 2024",
+		desc: "Major in big data and cloud platforms",
+		grade: "",
+		descBullets: [
+		],
+	},
+	{
+		schoolName: "University of South Asia, Pakistan",
+		subHeader: "Bachelor of Computer Science",
 		duration: "September 2017 - June 2021",
 		desc: "Major in Software development and Artificial Intelligence",
 		grade: "Grade B",
@@ -172,11 +181,18 @@ export const educationInfo = [
 
 export const experience = [
 	{
-		role: "Associate Software Engineer",
+		role: "Software Engineer (MERN)",
+		company: "Argon tech Inc.",
+		companylogo: "/img/icons/common/argon.png",
+		date: "Aug 2023 – Dec 2023",
+		desc: "Worked as web3 developer in blockchain based project using MERN stack technologies.",
+	},
+	{
+		role: "Associate Software Engineer (Full stack developer)",
 		company: "OptimaGeeks",
 		companylogo: "/img/icons/common/optimaGeeks.png",
-		date: "Aug 2022 – present",
-		desc: "I have been working as full stack engineer. Developing and designing applications using various technologies.",
+		date: "Jun 2022 – Jun 2023",
+		desc: "Worked as full stack engineer. Developed and designed applications using various technologies and languages.",
 	},
 	{
 		role: "Junior Software Engineer",
@@ -200,66 +216,62 @@ export const experience = [
 
 export const projects = [
 	{
-		name: "Kartedia Application",
-		desc: "Online plfatform for companies and oraganizations to buy and design templates, flyers, banners and cards. Core modules are template editor, chat application, projects and store. Organization need to register through subscription plan and they can design cards using template editor or buy templates avaible in store. Admin of the institute can print hundreds of records by just one click using their template.",
+		name: "Kartedia",
+		desc: "The aim of this project was to empower teams with collaborative chat, versatile template design, streamlined team management, and data-driven dynamic printing.I developed this application from scratch, and successfully met the requirements using Angular, Nest, Node and PostgreSQL",
 		github: "",
-		link: "https://drive.google.com/file/d/14VK9wh6UJcfB6JJZnVivTTDe5OPHXlw1/view?usp=share_link",
+		link: "https://kartedia.com/",
+	},
+	{
+		name: "Galileo Protocol",
+		desc: "I have contributed to the development of Galileo Protocol, a platform for luxury asset tokenisation in NFT marketplace. The tools and technologies I employed for the success of this project, include Blockchain, Metamask wallet, Polygon, Node Js, Express Js & PostgreSQL",
+		github: "",
+		link: "https://kartedia.com/",
+	},
+	{
+		name: "McGrath (Real estate agent)",
+		desc: "McGrath is Real Estate agent application for Sales, Investments, Rentals and Property Management, and boast an enviable reputation as ‘the agent you can recommend’. I worked as Node js developer in this application",
+		github: "",
+		link: "https://www.mcgrathgroup.com.au/",
+	},
+	{
+		name: "Augmentt",
+		desc: "Augmentt is a centralized SaaS security platform built for MSPs. It is developed to deliver scalable managed security services for Microsoft and cloud apps. To give visibility across all end-users to easily audit, protect and detect security threats for a holistic approach to cyber security.I contributed to the success of this project by using React Js, Bootstrap and react-bootstrap Tables.",
+		link: "https://www.augmentt.com ",
+	},
+	{
+		name: "Parserr",
+		desc: "Parserr is an email data parsing tool that takes features above and beyond. I contributed to the success of this project using React js and Third party integrations like Zapier, HubSpot, Google sheets.",
+		link: "https://parserr.com",
+	},
+	{
+		name: "Shopit",
+		desc: "Full fledge e-commerce application including payment method. I developed this application using React, Node, Express, MongoDB, Stripe.",
+		github: "https://github.com/mehrnuman123",
 	},
 	{
 		name: "Visual impaired Assistance (Android)",
 		desc: "It is a platform that focuses bringing sight to visually impaired and low vision people by turning the visual world into an audible experience.By utilizing computer vision technology user with low vision or visually impaired can see the objects which is close to him and can be accessed easily.",
 		github: "https://github.com/mehrnuman123",
 	},
-	{
-		name: "McGrath (Real estate agent)",
-		desc: "McGrath is Real Estate agent application for Sales, Investments, Rentals and Property Management, and boast an enviable reputation as ‘the agent you can recommend’.",
-		github: "",
-		link: "https://www.mcgrathgroup.com.au/",
-	},
-	{
-		name: "Augmentt",
-		desc: "Augmentt helps MSPs uncover Shadow IT, manage their customer’s Microsoft 365 & Google Workspace cloud apps, and enforce security policies to prevent security breaches.",
-		link: "https://www.augmentt.com ",
-	},
-	{
-		name: "Parserr",
-		desc: "Parserr is an email data parsing tool that takes features above and beyond.",
-		link: "https://parserr.com",
-	},
-	{
-		name: "Employment Law Alliance",
-		desc: "The Employment Law Alliance (ELA) is your global partner for HR Legal Solutions wherever you do business.",
-		link: "https://www.ela.law/",
-	},
-	{
-		name: "Shopit",
-		desc: "Full fledge e-commerce application including payment method.",
-		github: "https://github.com/mehrnuman123",
-	},
-	{
-		name: "Paksitan Tourist Guid (Android)",
-		desc: "Android application to promote tourism in pakistan. It contain all the necessery information require for tourist.",
-		github: "https://github.com/mehrnuman123",
-	},
 ];
 
 export const feedbacks = [
 	{
-		name: "Mike W",
-		feedback: "It was really amazing to work with him, He is a highly understanding human being. Looking forward to future projects.",
+		name: "Omro T.",
+		feedback: "Working with Muhammad on a full-stack project was fantastic! His skills in both Node.js and React.js made everything run smoothly. I appreciate his timely work and top-notch quality. I found him a great talent and highly recommended him for full-stack development",
 	},
 	{
-		name: "Shawn T",
-		feedback: "I really like this seller, he was always responsive for what i wanted. I recommend him for any project you wish to take him. Super professional. Thanks!",
+		name: "Mehmet K.",
+		feedback: "Exceptional Experience! Hired a full stack developer for my project, and the results were beyond expectations. The use of Django Python and React for the frontend showcased a high level of professionalism.",
 	},
 ];
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Muhammad Numan",
+	title: "Muhammad Noman",
 	description:
-		"A passionate Full Stack Web Developer and Mobile Application developer.",
-	author: "Muhammad Numan",
+		"A passionate Full Stack Developer",
+	author: "Muhammad Noman",
 	image: "",
 	url: "",
 	keywords: [
