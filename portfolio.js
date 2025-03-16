@@ -17,7 +17,7 @@ export const contact = {};
 
 export const socialLinks = {
 	url: "https://github.com/mehrnuman123",
-	linkedin: "https://www.linkedin.com/in/mhern-3758ba188/",
+	linkedin: "https://www.linkedin.com/in/muhammad-noman-4661172b8/",
 	github: "https://github.com/mehrnuman123",
 	instagram: "https://www.instagram.com/mehrnuman777",
 	facebook: "",
@@ -33,7 +33,7 @@ export const skillsSection = {
 			title: "Full Stack Development",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
-				"⚡ Proficient in Python/Django, PHP, JavaScript/TypeScript.",
+				"⚡ Proficient in Python/Django, JavaScript/TypeScript, C#/.NET",
 				"⚡ Expertise in React, Angular, Node, Nest, Next & Express Js/Ts",
 				"⚡ Adept at React-Native for creating cross-platform applications.",
 				"⚡ Experienced in both relational and non-relational databases..",
@@ -150,7 +150,7 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "80",
+		progressPercentage: "90",
 	},
 	{
 		Stack: "Programming",
@@ -163,8 +163,8 @@ export const educationInfo = [
 		schoolName: "Karelia University of Applied Sciences, Finland",
 		subHeader: "Information Communication Technology",
 		duration: "August 2023 - June 2024",
-		desc: "Major in big data and cloud platforms",
-		grade: "",
+		desc: "Major in Software and Cloud technologies",
+		grade: "3",
 		descBullets: [
 		],
 	},
@@ -181,29 +181,18 @@ export const educationInfo = [
 
 export const experience = [
 	{
-		role: "Software Engineer (MERN)",
+		role: "Full Stack Developer",
 		company: "Argon tech Inc.",
 		companylogo: "/img/icons/common/argon.png",
-		date: "Aug 2023 – Dec 2023",
+		date: "Jul 2023 – Feb 2024",
 		desc: "Worked as web3 developer in blockchain based project using MERN stack technologies.",
 	},
 	{
-		role: "Associate Software Engineer (Full stack developer)",
+		role: "Full stack developer",
 		company: "OptimaGeeks",
 		companylogo: "/img/icons/common/optimaGeeks.png",
-		date: "Jun 2022 – Jun 2023",
-		desc: "Worked as full stack engineer. Developed and designed applications using various technologies and languages.",
-	},
-	{
-		role: "Junior Software Engineer",
-		company: "Devflovv",
-		companylogo: "/img/icons/common/devflovv.jpg",
-		date: "Feb 2022 – April 2022",
-		desc: "Coordinated with backend developers and integrated Restful API’s with frontend. Got experience with React and bootstrap. Worked on platform called “Augmentt” which manages and secure SaaS applications.",
-		// descBullets: [F
-		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		// ],
+		date: "Mar 2022 – Jun 2023",
+		desc: "Worked as full stack engineer and worked on numerous projects using wide reange of technologies.",
 	},
 	{
 		role: "Mern stack Internee",
